@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ASG | Zateplení a dotace Hlučín</title>
+<meta name="description" content="Rodinná firma z Hlučína. Zateplení fasád a střech v Moravskoslezském kraji a vyřízení dotací na klíč.">
+<meta name="theme-color" content="#0a0a0a">
+<link rel="icon" href="img/gorila.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#obsah">Přeskočit na obsah</a>
+<div class="progress" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <div class="wrap nav__in">
+    <a href="#top" class="nav__logo" aria-label="ASG, na začátek">
+      <img src="img/asg-text.png" alt="ASG" width="1680" height="480">
+    </a>
+    <nav class="nav__links" id="menu" aria-label="Hlavní menu">
+      <a href="#sluzby">Služby</a>
+      <a href="#dotace">Dotace</a>
+      <a href="#postup">Postup</a>
+      <a href="#o-nas">O nás</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+    <a class="btn btn--sm nav__cta" href="tel:+420000000000">Zavolat</a>
+    <button class="burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="obsah">
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="hero__glow" aria-hidden="true"></div>
+  <div class="hero__grid" aria-hidden="true"></div>
+  <div class="wrap hero__in">
+    <div class="hero__text">
+      <p class="eyebrow"><span class="dot"></span> Hlučín · Moravskoslezský kraj</p>
+      <h1>Teplo zůstane doma. <em>Dotace vyřídíme my.</em></h1>
+      <p class="lead">Zateplíme fasádu i střechu a postaráme se o papíry k dotaci. Vy se jen rozhodnete, my to dotáhneme od zaměření po předání.</p>
+      <div class="hero__btns">
+        <a class="btn" href="#kontakt">Zavolejte nám</a>
+        <a class="btn btn--ghost" href="#teplo">Kolik tepla uniká?</a>
+      </div>
+    </div>
+    <div class="hero__art" aria-hidden="true">
+      <div class="ring ring--1"></div>
+      <div class="ring ring--2"></div>
+      <img class="gorila" src="img/gorila.png" alt="" width="1100" height="899">
+    </div>
+  </div>
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Zateplení fasád</span><i></i><span>Zateplení střech</span><i></i><span>Dotace na klíč</span><i></i><span>Rodinná firma</span><i></i><span>Hlučín</span><i></i>
+      <span>Zateplení fasád</span><i></i><span>Zateplení střech</span><i></i><span>Dotace na klíč</span><i></i><span>Rodinná firma</span><i></i><span>Hlučín</span><i></i>
+    </div>
+  </div>
+</section>
+
+<!-- ČÍSLA -->
+<section class="numbers wrap reveal">
+  <div class="num"><b>35<small>%</small></b><span>tepla uniká u nezateplených domů obvodovými stěnami</span></div>
+  <div class="num"><b>25<small>%</small></b><span>tepla utíká střechou, pokud není dobře zateplená</span></div>
+  <div class="num"><b>1</b><span>firma na všechno: zaměření, dotace, realizace i předání</span></div>
+  <div class="num"><b>MSK</b><span>pracujeme v celém Moravskoslezském kraji</span></div>
+</section>
+
+<!-- TEPLO -->
+<section class="sec" id="teplo">
+  <div class="wrap">
+    <div class="sec__head reveal">
+      <p class="eyebrow">Proč zateplovat</p>
+      <h2>Podívejte se, kam <em>mizí vaše peníze.</em></h2>
+      <p class="muted">Posuňte jezdec. Vlevo dům bez zateplení, vpravo dům po naší práci.</p>
+    </div>
+
+    <div class="thermo reveal" id="thermo" style="--pos:50%">
+      <!-- BEZ ZATEPLENÍ -->
+      <svg class="thermo__svg" viewBox="0 0 640 420" role="img" aria-label="Dům bez zateplení, z kterého uniká teplo">
+        <defs>
+          <radialGradient id="g-hot" cx="50%" cy="50%" r="50%">
+            <stop offset="0" stop-color="#fff3c4"/><stop offset=".35" stop-color="#ffb347"/>
+            <stop offset=".7" stop-color="#f58220" stop-opacity=".7"/><stop offset="1" stop-color="#f58220" stop-opacity="0"/>
+          </radialGradient>
+          <filter id="blur" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="9"/></filter>
+        </defs>
+        <rect width="640" height="420" fill="#0d0603"/>
+        <g filter="url(#blur)">
+          <polygon points="110,195 320,60 530,195" fill="#c2410c" opacity=".75"/>
+          <rect x="140" y="190" width="360" height="170" fill="#9a3412" opacity=".85"/>
+          <ellipse cx="215" cy="255" rx="62" ry="52" fill="url(#g-hot)"/>
+          <ellipse cx="425" cy="255" rx="62" ry="52" fill="url(#g-hot)"/>
+          <ellipse cx="320" cy="115" rx="130" ry="46" fill="url(#g-hot)"/>
+          <ellipse cx="437" cy="95" rx="40" ry="48" fill="url(#g-hot)"/>
+          <ellipse cx="145" cy="200" rx="40" ry="34" fill="url(#g-hot)" opacity=".8"/>
+          <ellipse cx="500" cy="200" rx="40" ry="34" fill="url(#g-hot)" opacity=".8"/>
+          <ellipse cx="320" cy="345" rx="170" ry="26" fill="url(#g-hot)" opacity=".7"/>
+        </g>
+        <g class="waves" fill="none" stroke="#ffb347" stroke-width="3" stroke-linecap="round">
+          <path d="M250 50 q-12 -14 0 -28 t0 -28"/><path d="M320 38 q-12 -14 0 -28 t0 -28"/><path d="M390 50 q-12 -14 0 -28 t0 -28"/>
+        </g>
+        <g fill="none" stroke="#ffd9a0" stroke-opacity=".5" stroke-width="2"><polygon points="110,195 320,60 530,195"/><rect x="140" y="190" width="360" height="170"/></g>
+        <text x="24" y="398" class="svg-t">BEZ ZATEPLENÍ</text>
+      </svg>
+
+      <!-- SE ZATEPLENÍM -->
+      <svg class="thermo__svg thermo__svg--top" viewBox="0 0 640 420" role="img" aria-label="Dům se zateplením, teplo zůstává uvnitř" aria-hidden="true">
+        <rect width="640" height="420" fill="#0d0d0d"/>
+        <g fill="none" stroke="#2a2a2a" stroke-width="16" stroke-linejoin="round">
+          <polygon points="104,198 320,54 536,198"/><rect x="134" y="190" width="372" height="176"/>
+        </g>
+        <polygon points="110,195 320,60 530,195" fill="#161616" stroke="#f58220" stroke-width="3" stroke-linejoin="round"/>
+        <rect x="140" y="190" width="360" height="170" fill="#161616" stroke="#f58220" stroke-width="3"/>
+        <rect x="420" y="80" width="34" height="62" fill="#161616" stroke="#f58220" stroke-width="3"/>
+        <rect x="180" y="225" width="70" height="60" fill="#0a0a0a" stroke="#f58220" stroke-width="2"/>
+        <rect x="390" y="225" width="70" height="60" fill="#0a0a0a" stroke="#f58220" stroke-width="2"/>
+        <rect x="290" y="270" width="60" height="90" fill="#0a0a0a" stroke="#f58220" stroke-width="2"/>
+        <line x1="145" y1="196" x2="495" y2="196" stroke="#f58220" stroke-opacity=".35" stroke-dasharray="6 8"/>
+        <text x="616" y="398" text-anchor="end" class="svg-t svg-t--o">SE ZATEPLENÍM ASG</text>
+      </svg>
+
+      <div class="thermo__handle" aria-hidden="true"><span>↔</span></div>
+      <input class="thermo__range" id="range" type="range" min="0" max="100" value="50" aria-label="Porovnání domu bez zateplení a se zateplením">
+    </div>
+  </div>
+</section>
+
+<!-- SLUŽBY -->
+<section class="sec" id="sluzby">
+  <div class="wrap">
+    <div class="sec__head reveal">
+      <p class="eyebrow">Co děláme</p>
+      <h2>Jednoduchá nabídka, <em>pořádná práce.</em></h2>
+    </div>
+    <div class="bento">
+      <article class="card card--a reveal">
+        <span class="card__n">01</span>
+        <h3>Zateplení fasád</h3>
+        <p>Rodinné domy i bytové domy. Správný materiál, čistě odvedená práce a fasáda, na kterou budete koukat s radostí.</p>
+        <svg class="card__ico" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-width="3"><rect x="20" y="30" width="80" height="70"/><path d="M20 55h80M20 78h80M45 30v25M75 55v23M45 78v22"/></svg>
+      </article>
+      <article class="card card--b reveal">
+        <span class="card__n">02</span>
+        <h3>Zateplení střech a půd</h3>
+        <p>Strop, půda i šikmá střecha. Tam, kudy teplo uniká nejrychleji.</p>
+      </article>
+      <article class="card card--c card--hot reveal">
+        <span class="card__n">03</span>
+        <h3>Dotace na klíč</h3>
+        <p>Podklady, žádost i komunikace s úřady. Vy neřešíte papíry.</p>
+        <a href="#dotace" class="card__link">Jak to funguje →</a>
+      </article>
+      <article class="card card--d reveal">
+        <span class="card__n">04</span>
+        <h3>Fasády a omítky</h3>
+        <p>Finální povrchy, barvy a detaily.</p>
+      </article>
+      <article class="card card--e reveal">
+        <span class="card__n">05</span>
+        <h3>Poradenství</h3>
+        <p>Poradíme, co se vám vyplatí a co ne. I když to znamená menší zakázku.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- DOTACE -->
+<section class="sec sec--dotace" id="dotace">
+  <div class="wrap dotace">
+    <div class="reveal">
+      <p class="eyebrow">Dotace</p>
+      <h2>Státní peníze na vaše zateplení. <em>My za vás vyplníme papíry.</em></h2>
+    </div>
+    <div class="dotace__body reveal">
+      <p>Na zateplení domu lze získat dotaci například z programu <strong>Nová zelená úsporám</strong>. Podmínky se ale mění a papírování zdržuje spoustu lidí.</p>
+      <p>Proto to děláme my. Zjistíme, na co máte nárok, připravíme dokumenty, podáme žádost a dohlédneme na vyúčtování.</p>
+      <ul class="ticks">
+        <li>Zjistíme, na jakou podporu máte nárok</li>
+        <li>Připravíme a podáme žádost</li>
+        <li>Zajistíme dokumenty a vyúčtování</li>
+      </ul>
+      <a class="btn" href="#kontakt">Zeptat se na dotaci</a>
+    </div>
+  </div>
+</section>
+
+<!-- POSTUP -->
+<section class="sec" id="postup">
+  <div class="wrap">
+    <div class="sec__head reveal">
+      <p class="eyebrow">Postup</p>
+      <h2>Od telefonátu <em>po předání.</em></h2>
+    </div>
+    <ol class="steps">
+      <li class="reveal"><b>1</b><h3>Zavoláte nám</h3><p>Řeknete, co máte za dům a co chcete řešit.</p></li>
+      <li class="reveal"><b>2</b><h3>Zaměříme a spočítáme</h3><p>Přijedeme se podívat a připravíme jasnou nabídku.</p></li>
+      <li class="reveal"><b>3</b><h3>Vyřídíme dotaci</h3><p>Podklady a žádost jsou naše starost.</p></li>
+      <li class="reveal"><b>4</b><h3>Zateplíme</h3><p>Pracujeme čistě, rychle a v domluveném termínu.</p></li>
+      <li class="reveal"><b>5</b><h3>Předáme</h3><p>Společně vše zkontrolujeme a zavřeme dotaci.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- O NÁS -->
+<section class="sec" id="o-nas">
+  <div class="wrap about">
+    <div class="about__text reveal">
+      <p class="eyebrow">O nás</p>
+      <h2>Jsme rodinná firma <em>z Hlučína.</em></h2>
+      <p>Stavíme a zateplujeme tam, kde bydlíme. Známe region, známe místní domy a stojíme si za tím, co uděláme. Žádní dodavatelé na dodavatele, s vámi jednáme my a odvedeme práci sami.</p>
+      <p>Děláme jen to, čemu rozumíme, a snažíme se, abyste se po letech vrátili s dalším domem nebo s doporučením pro souseda.</p>
+    </div>
+    <ul class="values reveal">
+      <li><b>Poctivě</b><span>Řekneme, co se vyplatí, i když je to levnější.</span></li>
+      <li><b>Po domácku</b><span>Jednáte přímo s námi, bez zprostředkovatelů.</span></li>
+      <li><b>Z místa</b><span>Jsme z Hlučína, dojedeme rychle a zůstaneme poblíž.</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- KONTAKT -->
+<section class="sec sec--contact" id="kontakt">
+  <div class="wrap">
+    <div class="sec__head reveal">
+      <p class="eyebrow">Kontakt</p>
+      <h2>Zavolejte. <em>Žádné formuláře.</em></h2>
+      <p class="muted">Obvykle se ozveme ještě ten den.</p>
+    </div>
+    <div class="contacts">
+      <article class="person reveal">
+        <p class="person__role">Zakázky, poptávky a dotace</p>
+        <h3>Lukáš Witásek</h3>
+        <a class="person__link" href="tel:+420000000000"><small>Telefon</small>+420 XXX XXX XXX</a>
+        <a class="person__link" href="mailto:lukas@asg-example.cz"><small>E-mail</small>lukas@asg-example.cz</a>
+      </article>
+      <article class="person reveal">
+        <p class="person__role">Realizace a stavby</p>
+        <h3>Strejda</h3>
+        <a class="person__link" href="tel:+420000000000"><small>Telefon</small>+420 XXX XXX XXX</a>
+        <a class="person__link" href="mailto:info@asg-example.cz"><small>E-mail</small>info@asg-example.cz</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__in">
+    <img src="img/asg-text.png" alt="ASG" width="1680" height="480" class="foot__logo">
+    <p>Hlučín · Moravskoslezský kraj</p>
+    <p class="muted">© 2026 ASG · IČO: XXXXXXXX</p>
+  </div>
+</footer>
+
+<a class="callbar" href="tel:+420000000000">Zavolat nám</a>
+
+<script src="main.js"></script>
+</body>
+</html>

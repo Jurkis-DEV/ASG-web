@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>ASG | Ukázky webu</title>
+<style>
+:root{--o:#f58220}
+*{box-sizing:border-box;margin:0}
+body{min-height:100svh;display:grid;place-items:center;padding:24px;background:radial-gradient(ellipse at 50% 0,#f5822030,transparent 60%),#0a0a0a;color:#f4f2ee;font:17px/1.6 system-ui,Segoe UI,Arial,sans-serif}
+main{width:min(760px,100%);text-align:center}
+h1{font-size:clamp(1.8rem,5vw,2.8rem);text-transform:uppercase;letter-spacing:-.02em;line-height:1.05;margin-bottom:10px}
+h1 em{font-style:normal;color:var(--o)}
+p{color:#a09b93;margin-bottom:34px}
+.g{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+a{display:flex;flex-direction:column;gap:6px;padding:28px 22px;border:1px solid #262626;border-radius:20px;background:#151515;color:inherit;text-decoration:none;transition:.2s}
+a:hover,a:focus-visible{border-color:var(--o);transform:translateY(-3px);outline:none}
+a b{font-size:1.25rem}a span{color:#a09b93;font-size:.95rem}a i{font-style:normal;color:var(--o);font-weight:700;margin-top:8px}
+a.n{background:var(--o);border-color:var(--o);color:#0a0a0a}a.n span,a.n i{color:#0a0a0acc}
+@media(max-width:600px){.g{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<main>
+  <h1>Web pro <em>ASG</em></h1>
+  <p>Dvě ukázky, jak by mohl web vypadat. Otevřete si obě.</p>
+  <div class="g">
+    <a href="varianta-1/"><b>Varianta 1</b><span>První návrh</span><i>Otevřít →</i></a>
+    <a href="varianta-2/" class="n"><b>Varianta 2</b><span>Nový návrh, tmavý, bez formuláře</span><i>Otevřít →</i></a>
+  </div>
+</main>
+</body>
+</html>
